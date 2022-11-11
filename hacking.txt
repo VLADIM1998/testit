@@ -1,0 +1,44 @@
+https://www.exploit-db.com/google-hacking-database    google commands find keywords //finds some data 
+
+Commands 
+Whois Tesla.com                                 //gives some info
+Nslookup Tesla.com                              //get ip address
+Ping Tesla.                                      //com gets IP address 
+Whatweb personaltestweb1.herokuapp.com          // what app is that and some more info server info 
+Man                                            //manual of packages how to use 
+Whatweb --aggression 3 -v ip /24 --no errors  //if you want range  // more info when was modified 
+Dirb  ip                         //find hidden directories  administrator folder or passwords
+nmap -sV ip                      // find open ports  
+nmap script vuln ip               // find vulnerabilities
+nmap.org 
+nmap script vuln {http-stored-xss} ip    //only find xss vulnerability 
+
+Nikto   //checks if anything wrong with servers //vulnerabilities 
+nikto -host ip // get server informmations  you can add -port 8081 to scan port 
+nikto -host ip -port 8081 
+
+Burpsuite
+
+ //need to set up proxy and download certificate to visit any website // has UI and monitors connection 
+http://burp.com 
+need go in firefox setting and change network settings  
+if burpsuite is off fireforx will not open website 
+
+intersept option on and off  //on will not open page  //off will work fine 
+intersept forward will try to load page again and if we modify payload for username password and forward it browser will open page automatically 
+
+
+repeater tab 
+from intercept ON capture request and action button send it to repeater 
+in repeater you can modify request and user agent and send as many times as you want requests
+
+
+
+when send POST request to INTRUDER you can brute froce it using list of passwords 
+sniper attack will change 1 word only for example if you know username you can brute force password list 
+
+there are other attack methods that can test many list fgor username and password 
+
+
+HTML Injection 
+make sure user will not run HTML tag in input field and test their input 
